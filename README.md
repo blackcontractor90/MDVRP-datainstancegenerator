@@ -104,7 +104,7 @@ Known issues & limitations
 - No input validation: entering a non-integer will throw an InputMismatchException.
 - Scanner is not closed; file writers are closed but not always with try-with-resources (some writers are closed inside if branches).
 - The program uses many magic numbers and duplicated code blocks for each supported instance; it is not DRY and difficult to maintain.
-- The program throws IOException in the main signature even though it also catches IOExceptions inside — this is confusing.
+- The program throws IOException in the main signature even though it also catches IOExceptions inside.
 - Many numeric lines inside the program are hard-coded templates; they may not reflect arbitrary inputs.
 - No unit tests or automation; everything is interactive.
 
