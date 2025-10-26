@@ -1,4 +1,4 @@
-# MainData — Problem / Solution Generator (Java)
+# MDVRP Custom Dataset Generator — Problem / Solution Generator (Java)
 
 This repository contains a single Java program, MainData.java, which generates problem instance data files and corresponding solution files for a vehicle routing / drop-off coordination problem. The program prompts the user for a selected problem instance (one of the supported instances) and several parameters, then writes two output files:
 
